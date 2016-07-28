@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SoundQuestRoom</string>
+    <string name="action_settings">Settings</string>
+    <string name="intro">Press the button to speak!</string>
+    <string name="speech">Нажмите для распознования</string>
+    <string name="word_intro">Suggested words…</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+
+</resources>

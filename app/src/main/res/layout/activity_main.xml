@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ff000000"
+    android:paddingBottom="5dp"
+    android:weightSum="1">
+
+    <Button android:id="@+id/speech_btn"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:text="@string/speech"
+        android:layout_weight="0.91"
+        android:background="#ff696969"
+        android:onClick="onClickButton"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="6dp"></TableRow>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kWord"
+        android:hint="введите ключевое слово"
+        android:background="#ff686868"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ©  Valery Perederenko"
+        android:id="@+id/textView"
+        android:layout_gravity="right"
+        android:textColor="#ff696969"
+        android:singleLine="false"
+        android:textSize="15dp" />
+
+
+</LinearLayout>
